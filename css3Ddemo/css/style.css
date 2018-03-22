@@ -1,0 +1,30 @@
+body{
+    background: url('../images/bg.jpg') repeat-x;
+}
+
+.container{
+	margin: 0 auto 0 auto;
+	width: 8.0625rem;
+	perspective: 25rem;
+}
+.horn{
+    position: absolute;
+    right: 1rem;
+    z-index: 2;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    transform-style: preserve-3d;
+    transform-origin: 50% 50%;
+
+}
+ul>li{
+    position: absolute;
+    width: 8.0625rem;
+    height: 73.125rem;
+}
+
